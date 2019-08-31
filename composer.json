@@ -1,0 +1,24 @@
+{
+  "name": "tasoft/gpio",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TASoft\\GPIO\\" : "src"
+    }
+  },
+  "require" : {
+    "php": "^7.2",
+    "ext-pcntl": "*",
+    "ext-posix" : "*",
+    "tasoft/gpio-wrapper": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  }
+}
